@@ -1,0 +1,24 @@
+{
+  "name": "graphcms-algolia-example",
+  "description": "An Algolia Example App using SWAPI",
+  "version": "0.0.223",
+  "dependencies": {
+    "semantic-ui-react": "0.74.2",
+    "semantic-ui-css": "2.2.12",
+    "react-router-dom": "4.2.2",
+    "react-router": "4.2.0",
+    "react-instantsearch": "4.1.2",
+    "react-dom": "16.0.0",
+    "react": "16.0.0",
+    "apollo-fetch": "0.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
