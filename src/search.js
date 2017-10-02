@@ -42,7 +42,7 @@ function Search() {
       <List divided relaxed>
         <Hits hitComponent={MyHit} />
       </List>
-
+      <Divider />
       <PoweredBy />
     </div>
   );
