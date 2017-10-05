@@ -1,5 +1,5 @@
-import React from "react";
-import { Card, Icon, Image } from "semantic-ui-react";
+import React from 'react';
+import { Card, Icon, Image } from 'semantic-ui-react';
 
 const Starship = ({
   id,
@@ -23,12 +23,8 @@ const Starship = ({
         <Card.Description>Cosumables for {consumables}</Card.Description>
       </Card.Content>
       <Card.Content>🚀 {maxAtmospheringSpeed}</Card.Content>
-      <Card.Content>
-        💰
-        {costInCredits}
-      </Card.Content>
+      <Card.Content>💰 {costInCredits}</Card.Content>
     </Card>
   </div>
 );
-
 export default Starship;
