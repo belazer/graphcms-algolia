@@ -22,7 +22,7 @@ function MyHit({ hit }) {
     <Divider />,
     <List.Item>
       <List.Header>
-        <Link to={`${hit.id}`}>
+        <Link to={`${hit.objectID}`}>
           <Highlight attributeName="name" hit={hit} />
         </Link>
       </List.Header>
