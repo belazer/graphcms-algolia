@@ -1,5 +1,6 @@
 import React from 'react';
 import { List, Divider, Image } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 // First, we need to add the Hits component to our import
 import {
   InstantSearch,
@@ -20,8 +21,10 @@ function MyHit({ hit }) {
   return [
     <Divider />,
     <List.Item>
-      <List.Header as="a" href={hit.objectID}>
-        <Highlight attributeName="name" hit={hit} />
+      <List.Header>
+        <Link to={`${hit.id}`}>
+          <Highlight attributeName="name" hit={hit} />
+        </Link>
       </List.Header>
       <List.Description>{hit.class}</List.Description>
     </List.Item>,
