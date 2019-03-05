@@ -26,7 +26,7 @@ class DetailView extends Component {
 
     apolloFetch({ query, variables })
       .then(result => {
-        const { data, errors, extensions } = result;
+        const { data } = result;
         this.setState({ data });
       })
       .catch(error => {

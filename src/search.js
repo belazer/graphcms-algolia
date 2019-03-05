@@ -3,13 +3,9 @@ import { List, Divider, Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 // First, we need to add the Hits component to our import
 import {
-  InstantSearch,
   Hits,
   SearchBox,
   Highlight,
-  RefinementList,
-  ClearAll,
-  CurrentRefinements,
   PoweredBy,
   Pagination,
   Configure,

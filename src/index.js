@@ -4,13 +4,8 @@ import Algolia from "./algolia";
 import DetailView from "./detail_view";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";
-import { Segment, Grid } from "semantic-ui-react";
+import { Segment } from "semantic-ui-react";
 import "./index.css";
-
-const styles = {
-  backgroundImage:
-    "radial-gradient(farthest-corner at 0px 6000px, #61045f 0%, #282d4c 100%)"
-};
 
 const App = () => (
   <BrowserRouter>
