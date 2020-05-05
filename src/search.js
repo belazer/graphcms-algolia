@@ -31,7 +31,7 @@ function Search() {
   return (
     <div>
       <Image
-        src="https://graphcms.com/assets/swapi.svg"
+        src="https://storage.googleapis.com/graphcms-public/swapi.svg"
         size="small"
         style={{ padding: '0px 0px 20px 0px' }}
         centered
